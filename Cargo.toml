@@ -1,0 +1,12 @@
+[package]
+name = "reproduction_414"
+edition = "2018"
+build = "build.rs"
+version = "0.0.1"
+
+[dependencies]
+protobuf = "*"
+
+[build-dependencies]
+protoc-rust = "2.7"
+
